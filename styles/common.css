@@ -1,0 +1,27 @@
+.navbar-brand-logo {
+    font-family: 'Montez', cursive;
+    font-size: xxx-large;
+}
+#log-subheader{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: large;
+}
+.navbar-collapse{
+    flex-grow: unset;
+}
+.modal-footer.signinfooter {
+    justify-content: space-around;
+    border-top: none;
+}
+.notmember{
+    cursor: pointer;
+}
+body {
+    font-family: 'Ubuntu Mono', monospace;
+}
+input{
+    background-color: lightgrey !important;
+}
+.modal-content {
+    padding: 2%;
+}

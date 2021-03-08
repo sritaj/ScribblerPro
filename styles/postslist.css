@@ -1,0 +1,64 @@
+body {
+    background-color: #ffeedd;
+}
+.cb-grey {
+    background-color: #e8e8e8;
+}
+.card {flex-direction: unset;max-width: 47%;
+    margin-right: 3%;
+    border-radius: 2.25rem !Important;
+    min-height: 177px;
+    }
+.card:last-child {
+    margin: auto;
+
+}
+.roundcorners {border-radius: 0 2.25rem 2.25rem 0 !important;}
+.card-text {
+    display: -webkit-box;-webkit-line-clamp: 3; -webkit-box-orient: vertical;overflow: hidden;
+}
+.floatright{
+    float: right;
+    cursor: pointer;
+    color: grey;
+}
+.authorname {
+    font-size: 22px;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+.card:hover {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
+.trashicon{
+    position: absolute;
+    right: 5%;
+    top: 13%;
+    cursor: pointer;
+    color: grey;
+}
+.card-body{
+    text-align: left;
+    font-size: 16px;
+}
+.card-title{
+    color: grey;
+    margin-right: 10px;
+}
+.modal-body.closeBody{
+    display: inline-flex;
+}
+.noBtn{
+    position: absolute;
+    right:20px;
+}
+.btn{
+    min-width: 80px;
+}
+.modal-header.closeHeader {
+
+    border-bottom: none;
+    justify-content: center;
+
+}
